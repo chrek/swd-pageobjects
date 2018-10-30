@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="50803" started-at="2018-10-30T21:32:08Z" finished-at="2018-10-30T21:32:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="50803" started-at="2018-10-30T21:32:08Z" finished-at="2018-10-30T21:32:59Z">
+      <class name="com.criscar.swtestacademy.swd.pageobjectfactory.LoginTests">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.criscar.swtestacademy.swd.pageobjectfactory.LoginTests@59f99ea]" name="setup" is-config="true" duration-ms="12517" started-at="2018-10-30T21:32:08Z" finished-at="2018-10-30T21:32:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="invalidLoginTest_InvalidUserNameInvalidPassword()[pri:0, instance:com.criscar.swtestacademy.swd.pageobjectfactory.LoginTests@59f99ea]" name="invalidLoginTest_InvalidUserNameInvalidPassword" duration-ms="27116" started-at="2018-10-30T21:32:20Z" finished-at="2018-10-30T21:32:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest_InvalidUserNameInvalidPassword -->
+        <test-method status="PASS" signature="invalidLoginTest_EmptyUserNameEmptyPassword()[pri:1, instance:com.criscar.swtestacademy.swd.pageobjectfactory.LoginTests@59f99ea]" name="invalidLoginTest_EmptyUserNameEmptyPassword" duration-ms="9221" started-at="2018-10-30T21:32:48Z" finished-at="2018-10-30T21:32:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidLoginTest_EmptyUserNameEmptyPassword -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.criscar.swtestacademy.swd.pageobjectfactory.LoginTests@59f99ea]" name="teardown" is-config="true" duration-ms="1793" started-at="2018-10-30T21:32:57Z" finished-at="2018-10-30T21:32:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.criscar.swtestacademy.swd.pageobjectfactory.LoginTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

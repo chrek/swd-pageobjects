@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 43.668 sec <<< FAILURE! - in TestSuite
+invalidLoginTest_InvalidUserNameInvalidPassword(com.criscar.swtestacademy.swd.pageobject.LoginTests)  Time elapsed: 18.985 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Girilen değer en az 6 karakter olmalıdır.] but found [Girilen de?er en az 6 karakter olmal?d?r.]
+	at com.criscar.swtestacademy.swd.pageobject.LoginTests.invalidLoginTest_InvalidUserNameInvalidPassword(LoginTests.java:31)
+
+invalidLoginTest_EmptyUserNameEmptyPassword(com.criscar.swtestacademy.swd.pageobject.LoginTests)  Time elapsed: 7.753 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Lütfen e-posta adresinizi girin.] but found [L�tfen e-posta adresinizi girin.]
+	at com.criscar.swtestacademy.swd.pageobject.LoginTests.invalidLoginTest_EmptyUserNameEmptyPassword(LoginTests.java:58)
+
